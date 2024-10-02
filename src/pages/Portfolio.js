@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import Header from '../components/Header';
 import Grid from "../components/Grid";
 
-// image Data
-import ImageData from "../components/ImageResource";
 
 // import motion
 import {motion as Motion} from 'framer-motion';
@@ -31,20 +29,7 @@ const menuVariants = {
 const Portfolio = () => {
   const [openGallery, setOpenGallery] =useState(false);
   const [imageType, setImageType] = useState('mariyam');
-  
-  let data;
-  if(imageType==='mariyam'){
-    data =ImageData.mariyam;
-    }
-else if(imageType==='landscape'){
-      data = ImageData.landscape;
-    }
-else if(imageType==='others'){
-      data = ImageData.other;
-    }
-else if(imageType==='flower'){
-      data = ImageData.flower;
-    }  
+ 
   return<>
     <div  className={`${openGallery ? 'hidden' : ''}`}>
     <Header/>
