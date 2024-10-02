@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 // import components
 import AnimRoutes from './components/AnimRoutes';
 // import Router
