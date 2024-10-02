@@ -1,4 +1,4 @@
-import {React, useEffect, useState } from "react";
+import {React, useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaCompress, FaExpand } from "react-icons/fa";
 import ImageData from "./ImageResource";
 
