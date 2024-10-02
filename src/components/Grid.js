@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 // import motion
 import {motion as Motion} from 'framer-motion';
 // import transition
